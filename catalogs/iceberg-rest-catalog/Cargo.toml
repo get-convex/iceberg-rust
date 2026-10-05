@@ -36,5 +36,5 @@ tracing-subscriber = "0.3"
 [dependencies.reqwest]
 version = "^0.12"
 default-features = false
-features = ["json", "multipart", "rustls-tls-manual-roots"]
+features = ["json", "multipart", "rustls-tls-manual-roots-no-provider"]
 
